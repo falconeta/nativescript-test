@@ -14,7 +14,7 @@ import { NativeScriptHttpClientModule } from 'nativescript-angular/http-client';
 
 @NgModule({
   bootstrap: [AppComponent],
-  imports: [NativeScriptModule, NativeScriptHttpClientModule, AppRoutingModule ],
+  imports: [NativeScriptModule, NativeScriptHttpClientModule, AppRoutingModule],
   declarations: [AppComponent, ItemsComponent, ItemDetailComponent],
   providers: [],
   schemas: [NO_ERRORS_SCHEMA]
